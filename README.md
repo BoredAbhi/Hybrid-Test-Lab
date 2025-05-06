@@ -31,8 +31,8 @@ This framework tests the login functionality of:
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourname/hybridtestlab.git
-cd hybridtestlab
+git clone [https://github.com/yourname/hybridtestlab.git](https://github.com/BoredAbhi/Hybrid-Test-Lab.git)
+cd Hybrid-Test-Lab
 ```
 
 ### 2. Set Up the Environment
