@@ -26,5 +26,36 @@ This framework tests the login functionality of:
 
 ---
 
-## 📁 Project Structure
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/yourname/hybridtestlab.git
+cd hybridtestlab
+```
+
+### 2. Set Up the Environment
+
+```bash
+pip install -r requirements.txt
+```
+Make sure `allure` CLI is installed (Install Guide: https://docs.qameta.io/allure/).
+
+### 3. Running the tests:
+
+UI + API Tests via Behave: `behave`
+
+Run in Docker:
+```bash
+docker build -t hybridtestlab .
+docker run --rm hybridtestlab
+```
+
+### 4. Generating Allure Reports
+
+```bash
+allure generate reports --clean -o reports/allure_report
+allure serve reports/allure_report
+```
 
